@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Upadhyay portfolio</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+         body{
+            background-color: #b78276;
+        }
+        .btn{
+            color: white ; background-color: b78276; border: 1px solid white; width: 165px ; margin-right: 40px ; 
+        }
+        .btn:hover{
+            color: white ; background-color: #d6a292; border: 1px solid #d6a292; width: 165px ; margin-right: 40px ; 
+        }
+        .nl:hover{    
+            padding-bottom: 3px;
+            border-bottom:  3px solid #b78276;
+        }
+        nav{
+            position: fixed ;
+            top: 0;
+            width: 100%;
+        }
+        .bar{
+            background-color: #b78276;;
+        }
+
+        ::-moz-progress-bar {
+            background-color: red;
+        }
+
+        progress {
+            color: lightblue;
+            -webkit-appearance: none ;
+        }
+
+        ::-webkit-progress-bar {
+            background-color: white;
+        }
+        .skilname{
+        margin: 0px 0px;
+        width: 460px;
+        text-align: left;
+        } */
+        </style>
+        <!-- <link rel="stylesheet" href="style.css"> -->
+    
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d6a292; position: fixed ; ">
+        <a class="navbar-brand" href="#" style="margin-left: 197px; color: white; font-size: 1.7rem;" > <strong> Ayush Upadhyay</strong> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color: white;">
+          <ul class="navbar-nav mr-auto" style="margin: 0px 401px; padding: 0.3rem 0.2rem; text-emphasis-color:white ; text-decoration-color: white; color: white;">
+            <li class="nav-item active" id=i1 style="color: white ; padding-right: 0px;">
+              <a class="nav-link " href="#home" style="color: white; margin-right: 50px;"><span class="nl"> Home</span></a>
+            </li>
+            <li class="nav-item active ">
+              <a class=" nav-link" href="#hobby" style="color: white;  margin-right: 50px;" > <span class="nl"> My Hobbies </span> </a>
+            </li>
+
+            <li class="nav-item-active">
+              <a class="nav-link " href="#skills" style="color: white;  margin-right: 50px;" ><span class="nl"> Skills </span> </a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    
+    <section id="home" style="height: 655px;">
+        <div class="container" style="margin: auto auto; padding: 200px 100px; color: white; ">
+            <!-- <img src="a.img" alt="" aria-details="200px 400px" style="float: right;"> -->
+            <img src="img/profile-img.jpg" width="250px" height="250px" alt="Responsive image" aria-details="400px 400px" style="float: right;">
+            <h1 style="font-size: 3.1rem;"> Hey It's Me <br> Ayush Upadhyay</h1>
+            <h6 style="max-width: 550px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, reprehenderit! Quam soluta dolor in vero aperiam eveniet cumque labore laborum maiores nesciunt ipsum error hic, amet, corporis ea?   </h6>
+            <br>
+            <a href="#hobby" class="btn "> My Hobbies</a>
+            <a href="#skills" class="btn mx-4 my-2" id="btn2" onclick=" "  > Skills</a>
+
+        </div>
+    </section>
+
+
+    <section id="hobby" style="height: 655px; background-color: white;">
+        <div class="" style="padding-top: 120px; color: black; " >
+          <h1 style="text-align: center;">My Hobbies</h1>
+          <p></p>
+          <div style="margin: 140px auto ; text-align: center;">
+            <img src="img/hlogo.PNG"  style="margin: auto 200px ;" alt="">
+            <div style="width: 1200px; margin: 0px auto; text-align: center; padding-left: 90px;">
+              <span style="margin-right: 170px; font-size: 30px ;">Cricket</span><span style="margin-right: 150px; font-size: 30px ;" >Code</span> 
+              <span style="margin-right: 150px; font-size: 30px ;" >Dance</span><span style="margin-right: 126px; font-size: 30px ;" >Music</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="skills" style="height: 750px; background-color: #f7ece9;">
+        <div class="container" style=" padding-top: 120px; color: rgb(12, 12, 12); ">
+              <h2 style="text-align: center;">Skills</h2>
+              <p></p>
+        </div>
+            <div class="" style="margin-left: 400px;">
+              <div style="text-align: left; width: 804px; margin: auto auto;">
+                <div>
+                  <div class='skilname'>HTML</div> 
+                  <div class="">
+                    <progress id="file1" class="bar" max="100" value="92" style="width: 500px;"> 100% </progress>
+                  </div>
+                </div>
+                <div >
+                  <div class='skilname' >CSS</div>
+                  <div>
+                    <progress  id="file2" class="bar" max="100" value="80" style="width: 500px;"> 100% </progress>
+                  </div>
+                </div>
+                <div >
+                  <div class='skilname' >JavaScript</div>
+                  <div>
+                    <progress id="file3" class="bar" max="100" value="87" style="width: 500px;"> 90% </progress>
+                  </div>
+                </div>
+    
+              </div>
+            </div>             
+    </section>    
+</body>
+</html>
